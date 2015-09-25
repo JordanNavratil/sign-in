@@ -5,4 +5,10 @@ signIn.config(function($stateProvider, $urlRouterProvider) {
     url: "",
     templateUrl: "partials/home.html"
   });
+
+  $stateProvider.state('signIn', {
+  url: "/signIn",
+  templateUrl: "partials/signIn.html",
+  controller: 'StudentsCtrl'
+});
 });
