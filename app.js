@@ -10,5 +10,5 @@ signIn.config(function($stateProvider, $urlRouterProvider) {
   url: "/signIn",
   templateUrl: "partials/signIn.html",
   controller: 'StudentsCtrl'
-});
+ });
 });
