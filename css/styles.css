@@ -1,9 +1,22 @@
+body {
+    background-image:url(http://cdn.faveable.com/assets/articles/everything-you-will-need-for-your-first-day-of-college-1408124050.jpg);
+}
+
 h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 75px;
+    font-size: 125px;
     color: red;
 }
 
 a {
     color: black;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+li {
+    color:white;
+    font-size:45px;
 }
