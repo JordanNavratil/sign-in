@@ -6,5 +6,4 @@ signIn.controller('StudentsCtrl', function StudentsCtrl($scope, StudentsFactory)
   $scope.signedOut = function(student) {
       student.signedIn = false;
   };
-  $scope.StudentsFactory = StudentsFactory;
 });

@@ -7,14 +7,14 @@ signIn.config(function($stateProvider, $urlRouterProvider) {
   });
 
   $stateProvider.state('signIn', {
-  url: "/signIn",
-  templateUrl: "partials/signIn.html",
-  controller: 'StudentsCtrl'
- });
+    url: "/signIn",
+    templateUrl: "partials/signIn.html",
+    controller: 'StudentsCtrl'
+  });
 
- $stateProvider.state('whoshere', {
- url: "/whoshere",
- templateUrl: "partials/whoshere.html",
- controller: 'StudentsCtrl'
- });
+  $stateProvider.state('whoshere', {
+    url: "/whoshere",
+    templateUrl: "partials/whoshere.html",
+    controller: 'TeachersCtrl'
+  });
 });

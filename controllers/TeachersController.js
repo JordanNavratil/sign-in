@@ -1,0 +1,3 @@
+signIn.controller('TeachersCtrl', function TeachersCtrl($scope, StudentsFactory) {
+  $scope.students = StudentsFactory.students;
+});
