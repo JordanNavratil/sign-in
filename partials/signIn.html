@@ -1,6 +1,9 @@
 <div ng-show="students.length">
     <h1>Sign In Sheet</h1>
     <ul>
-        <li ng-repeat="item in students">{{item.name}}</li>
+        <li ng-repeat="item in students">{{item.name}}
+        <button ng-click="item.signedIn = !item.signedIn" ng-show="item.signedIn" class="btn btn-danger">Sign Out</button>
+        <button ng-click="item.signedIn = !item.signedIn" ng-show="!item.signedIn" class="btn btn-primary">Sign In</button>
+        </li>
     </ul>
 </div>

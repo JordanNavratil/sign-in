@@ -11,4 +11,10 @@ signIn.config(function($stateProvider, $urlRouterProvider) {
   templateUrl: "partials/signIn.html",
   controller: 'StudentsCtrl'
  });
+
+ $stateProvider.state('whoshere', {
+ url: "/whoshere",
+ templateUrl: "partials/whoshere.html",
+ controller: 'StudentsCtrl'
+ });
 });

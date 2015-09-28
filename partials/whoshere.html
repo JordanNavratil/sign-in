@@ -1,0 +1,17 @@
+<div ng-show="students.length">
+    <h1>Students Present:</h1>
+    <ul>
+    <li ng-repeat="item in students | filter: {signedIn: true}">
+        {{item.name}}
+    </li>
+</ul>
+</div>
+
+<div ng-show="students.length">
+    <h1>Students Absent:</h1>
+    <ul>
+    <li ng-repeat="item in students | filter: {signedIn: false}">
+        {{item.name}}
+    </li>
+</ul>
+</div>
