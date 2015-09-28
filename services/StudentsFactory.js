@@ -1,6 +1,6 @@
-courseRoster.factory('CoursesFactory', function CoursesFactory() {
+signIn.factory('StudentsFactory', function StudentsFactory() {
   var factory = {};
-  factory.courses = [
+  factory.students = [
       { name: "David Bowie", signedIn: false},
       { name: "Siouxsie Sioux", signedIn: false},
       { name: "Leonard Cohen", signedIn: false},
